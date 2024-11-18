@@ -39,7 +39,7 @@ const Products = () => {
                 </p>
               </div>
               <div className='flex w-full justify-between'>
-                <Link to={`/product/${product.id}`} className="no-underline text-white text-lg font-medium p-2 rounded-lg bg-[#0a1332] shadow-btn-shadow hover:shadow-hover-shadow focus:shadow-click-shadow ">View Product</Link>
+                <Link to={`/product/${product.id}`} className="no-underline text-white text-lg font-medium p-2 rounded-lg bg-[#0a1332] shadow-btn-shadow hover:shadow-hover-shadow focus:shadow-click-shadow ">View Details</Link>
                 <button disabled={!product.inStock} className={`text-lg font-medium p-2 rounded-lg bg-[#284bb3] shadow-btn-shadow hover:shadow-hover-shadow focus:shadow-click-shadow ${product.inStock? 'cursor-pointer': 'cursor-not-allowed'} `}>Add to Cart</button>
               </div>
             </div>
